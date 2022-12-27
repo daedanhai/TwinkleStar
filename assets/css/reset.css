@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/*fonts*/
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+  font-family: 'MaruBuri-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* color */
+/* flex */
+/* margin */
+/* padding */
+/* background */
+/* font */
+/* custom btn */
+/* tab */
+/* transition */
+/* text cutting */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-family: "Pretendard", Malgun Gothic, 돋움, DotumChe, Dotum;
+  vertical-align: baseline;
+  -webkit-text-size-adjust: none;
+  box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, div {
+  position: relative;
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Pretendard", Malgun Gothic, 돋움, DotumChe, Dotum;
+  color: #111;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+}
+
+strong {
+  font: inherit;
+}
+
+label, button, input[type=submit], input[type=checkbox], input[type=radio], input[type=button] {
+  padding: 0px;
+  border-radius: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+input[type=text], input[type=password], input[type=number] {
+  padding: 0px;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+input, button, textarea, select {
+  border: none;
+  font-family: "Pretendard", Malgun Gothic, 돋움, DotumChe, Dotum;
+  box-sizing: border-box;
+}
+
+input[type=submit], button[type=submit] {
+  font-family: "Pretendard", Malgun Gothic, 돋움, DotumChe, Dotum;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button:focus, textarea:focus, input:focus {
+  outline: none;
+}
+
+button, textarea, input, select, a, label {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+img {
+  vertical-align: middle;
+}
+
+button {
+  background: transparent;
+  color: inherit;
+}
+
+input, textarea {
+  border: 1px solid transparent;
+  transition: border 0.3s ease-in-out;
+}
+
+::placeholder {
+  color: #000000;
+  font-family: "Pretendard", Malgun Gothic, 돋움, DotumChe, Dotum;
+}
+.no-scroll {
+  overflow-y: scroll;
+  overflow: hidden;
+}
